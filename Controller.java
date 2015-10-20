@@ -28,7 +28,6 @@ public class Controller implements Initializable, ChangeListener {
         }
         WebEngine engine = webView.getEngine();
         engine.load(address);
-
     }
 
     public void onKeyPressed(KeyEvent event) {
